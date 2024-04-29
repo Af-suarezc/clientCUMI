@@ -1,0 +1,76 @@
+h1{
+    height: 25px;
+}
+
+.gobackbutton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 65px;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+.gobackbutton:hover{
+    background-color: rgb(58, 148, 151);
+}
+
+.formabove{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+    
+}
+
+.formabove label{
+   margin-top: 25px;
+   font-size: 35px;
+   height: 15px;
+
+}
+
+.formabove input{
+    height: 50px;
+    margin-top: 35px;
+}
+
+.conditionalcontainer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid red; */
+}
+
+.rendercontainer{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.rendercontainer label{
+    height: 25px;
+    width: 100%;
+    
+}
+
+
+.rendercontainer input{
+    height: 25px;
+}
+
+
+.rendercontainer button{
+    margin-top: 20px;
+    height: 65px;
+    width: 200px;
+    background-color: rgb(50, 167, 34);
+}
+
+.rendercontainer button:hover{
+    background-color: rgb(63, 121, 55);
+}

@@ -1,0 +1,33 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.classformroom{
+   /* border:1px solid red; */
+   height: 300px;
+   width: 90%;
+}
+
+.classformroom label{
+    height: 35px;
+
+}
+
+.classformroom input{
+    height: 35px;
+    
+}
+
+.classformroom button{
+    margin-top: 25px;
+    height: 35px;
+    width: 30%; 
+}
+
+.backhomebuttonroom{
+    height: 35px;
+    width: 25%;
+}

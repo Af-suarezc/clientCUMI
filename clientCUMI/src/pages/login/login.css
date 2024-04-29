@@ -1,0 +1,75 @@
+.mainlogin{
+    width: 100%;
+}
+
+.formbanner{
+    height: 80px;
+    width: 100%;
+    margin:auto;
+    color: aliceblue;
+    border-radius: 4px;
+    background-color: rgba(18, 57, 141, 0.699);
+}
+
+.mainlogin form{
+    width: 50%;
+    margin: auto;
+
+}
+.formclass{
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.forminputs{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: 45%;
+}
+
+.forminputs label{
+   
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.forminputs input{
+    
+    height: 35px;
+    margin: 2px 2px;
+    border-radius: 5px;
+}
+
+.formbuttons{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    width: 90%;
+    margin: auto;
+  
+}
+
+.formbuttons button{
+    margin: 5px 5px 0px 5px;
+    width: 80%;
+    height: 70%;
+    background-color: rgba(7, 7, 156, 0.788);
+    color: aliceblue;
+}
+
+.formbuttons button:hover{
+    background-color: rgba(14, 14, 219, 0.788);
+    color: aliceblue;
+}
+
+.errormessage{
+    color:rebeccapurple;
+    font-weight: 800;
+    font-size: 35px;
+    height: 50px;
+}

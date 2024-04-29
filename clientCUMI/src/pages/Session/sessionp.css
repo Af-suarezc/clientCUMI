@@ -1,0 +1,87 @@
+.maincard{
+    width: 100%;
+    height: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.minibanner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content:space-around;
+    margin:0 0 10px 0;
+    color: aliceblue;
+    border-radius: 4px;
+    background-color: rgba(18, 57, 141, 0.699);
+}
+
+.minibanner img{
+    height: 70px;
+    margin-top: 15px;
+}
+.minibanner h3{
+    margin-top: 35px;    
+}
+.minibanner a{
+    color: aliceblue;
+    cursor: pointer;
+}
+.minibanner a:hover{
+    color: aliceblue;
+    
+}
+
+.left-card{
+    margin-top: 10px;
+    width: 45%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.left-card span{
+    margin-top: 120px;
+    margin-bottom: 0;
+    font-size: 25px; 
+    height: 50px;
+}
+
+.left-card button{
+    font-size: 25px;
+    width: 45%;
+    height: 60px;
+    margin-bottom: 120px;
+}
+
+.right-card{
+    margin-top: 70px;
+    width: 45%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.right-card input{
+    height: 35px;
+    margin: 5px 5px;
+}
+
+.right-card button{
+    height: 35px;
+}
+
+.errormessage{
+    color:rebeccapurple;
+    font-weight: 800;
+    font-size: 35px;
+    height: 50px;
+
+}
