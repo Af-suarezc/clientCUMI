@@ -101,7 +101,7 @@ export default function DashHome() {
                       }}
                     />
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-                    <Bar dataKey="cantidad" fill="#D6E3AD" barSize={120}>
+                    <Bar dataKey="cantidad" fill="#D6E3AD" barSize={70}>
                       <LabelList dataKey="grado" position="bottom" />
                     </Bar>
                   </BarChart>
@@ -110,7 +110,6 @@ export default function DashHome() {
                 <h2>No Hay Datos</h2>
               )}
             </div>
-            <hr/>
             <div className="teachersquantity">
               {teachersroomQunatity.length != 0 ? (
                 <div>
@@ -134,7 +133,7 @@ export default function DashHome() {
                     <Bar
                       dataKey="cantidad_profesores"
                       fill="#A2A1F3"
-                      barSize={120}
+                      barSize={50}
                     >
                       <LabelList dataKey="grado" position="bottom" />
                     </Bar>

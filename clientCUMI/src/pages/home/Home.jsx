@@ -6,6 +6,7 @@ export default function Home() {
     <div>
         <div className="navbar">
           <h1>PROYECTO CUMI-GESTORACADEMICO</h1>
+          <br />
          <div className="linkbut">
           <Link to="/register">
             <button>Register</button>
@@ -17,6 +18,8 @@ export default function Home() {
         </div>
         <div className="main-content">
           <h1>Binvenido al gestor academico</h1>
+          <br />
+          <br />
           <img src="https://www.svgrepo.com/show/492783/class.svg" alt="mainImage" />
         </div>
         

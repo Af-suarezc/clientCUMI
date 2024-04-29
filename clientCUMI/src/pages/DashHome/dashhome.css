@@ -13,7 +13,7 @@
 
 .wrapper{
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
 
 }
 
@@ -55,6 +55,7 @@
 }
 
 .teachersquantity{
+    margin-top: 120px;
     width: 40%;
     height: 200px;
 }

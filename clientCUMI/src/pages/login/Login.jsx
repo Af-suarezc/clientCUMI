@@ -60,7 +60,7 @@ export default function Login() {
             name="password"
             onChange={handleChange}
           />
-          <label htmlFor="name">Nombre usuario:</label>
+          <label htmlFor="name">Usuario:</label>
           <input
             type="text"
             placeholder="Name"

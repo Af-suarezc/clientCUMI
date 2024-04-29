@@ -51,6 +51,8 @@ export default function SessionP() {
         </div>
         <div className="right-card">
           <h1>Inicia Aquí Sesión</h1>
+          <br></br>
+          <br></br>
           <form>
             <input
               type="text"
